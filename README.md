@@ -42,4 +42,8 @@ or
 
 I've tried adding a @RequestMapping, but that didn't work either. Can anyone help me figure out how to support another Servlet inside my Spring Boot application?
 
+To run this application:
+
+    mvn clean package tomcat7:run-war
+    
   [1]: http://start.spring.io/
